@@ -27,7 +27,7 @@ jobs:
 
     - name: Build EXE
       run: |
-        pyinstaller --onefile SigPageExtractorGUI.py
+        pyinstaller --onefile --add-data "static:static" SigPageExtractorGUI.py
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
