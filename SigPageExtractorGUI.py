@@ -127,6 +127,8 @@ class MainWindow(QWidget):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
+    # Comment out or remove this line if you don't need static files
+    # app.mount("/static", StaticFiles(directory="static"), name="static")
     mainWin = MainWindow()
     mainWin.show()
     sys.exit(app.exec_())
