@@ -31,9 +31,7 @@ prov==2.0.1
 puremagic==1.28
 pydot==3.0.4
 pyparsing==3.2.1
-PyQt5==5.15.11
-PyQt5-Qt5==5.15.16
-PyQt5_sip==12.17.0
+PyQt5
 python-dateutil==2.9.0.post0
 pytils==0.4.1
 pytz==2025.1
